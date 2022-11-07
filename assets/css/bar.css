@@ -49,20 +49,24 @@
   animation: animate 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 .bar .progress-line.office span {
-  width: 75%;
+  width: 90%;
 }
 .bar .progress-line.ide span {
-  width: 75%;
+  width: 85%;
 }
 .bar .progress-line.ap span {
-  width: 80%;
+  width: 89%;
+}
+
+.bar .progress-line.aps span {
+  width: 75%;
 }
 
 .bar .progress-line.ae span {
-  width: 65%;
+  width: 80%;
 }
 .bar .progress-line.video span {
-  width: 70%;
+  width: 90%;
 }
 
 .bar .progress-line.drone span {
@@ -101,25 +105,29 @@
   }
 }
 .progress-line.office span::after {
-  content: "75%";
+  content: "90%";
 }
 .progress-line.ide span::after {
-  content: "75%";
+  content: "85%";
 }
 
 .progress-line.ap span::after {
-  content: "80%";
+  content: "89%";
+}
+
+.progress-line.aps span::after {
+  content: "75%";
 }
 
 .progress-line.video span::after {
-  content: "70%";
+  content: "90%";
 }
 
 .progress-line.drone span::after {
   content: "98%";
 }
 .progress-line.ae span::after {
-  content: "65%";
+  content: "80%";
 }
 
 /* Pengalaman */
